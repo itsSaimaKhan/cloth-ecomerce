@@ -1,10 +1,11 @@
 
 
-export default function Home() {
+export default function Announcement() {
   return (
     <main>
     <div>
-      <h1>Announcement</h1>
+      <h3>Announcement</h3>
+      <button>Close</button>
     </div>
     </main>
   );
