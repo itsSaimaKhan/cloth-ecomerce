@@ -1,5 +1,5 @@
 
-import Announcement from "./components/Announcement";
+import Announcement from "@/components/anouncement";
 
 export default function Home() {
   return (
