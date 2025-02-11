@@ -32,8 +32,8 @@ export default function Header () {
             </div>
         
         {/* cart */}
-        <div className="flex items-center">
-        <FaCartArrowDown />
+        <div className="flex items-center mr-7 space-x-5">
+        <FaCartArrowDown  className="text-2xl"/>
         </div>
 
     </header>
