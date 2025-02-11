@@ -24,9 +24,9 @@ export default function Header () {
         </ul>
         {/* search input */}
       
-            <div className="flex justify-start items-center w-[300px] bg-[#F0F0F0]">
+            <div className="flex justify-start items-center w-[330px] h-[40px] bg-[#F0F0F0]">
             <FaSearchengin className="text-xl"/>
-            <input placeholder="search item..."></input>
+            <input placeholder="search item..." className="w-full h-full bg-[#F0F0F0]"></input>
 
 
             </div>
