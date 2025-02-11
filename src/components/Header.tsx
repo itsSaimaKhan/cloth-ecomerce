@@ -15,16 +15,16 @@ export default function Header () {
         </div>
         {/* navbar */}
         <ul>
-            <li>
+            <li className="space-x-5">
+                <Link href={""}>Shop</Link>
+                <Link href={""}>On Sale</Link>
                 <Link href={""}>New Arrivals</Link>
-                <Link href={""}></Link>
-                <Link href={""}></Link>
-                <Link href={""}></Link>
+                <Link href={""}>Brands</Link>
             </li>
         </ul>
         {/* search input */}
       
-            <div className="flex justify-start items-center">
+            <div className="flex justify-start items-center w-[100px] bg-[#F0F0F0]">
             <FaSearchengin />
             <input placeholder="search item..."></input>
 
