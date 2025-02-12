@@ -56,5 +56,5 @@ export function SheetSide() {
         </Sheet>
       ))}
     </div>
-  )
-}
+  );
+};
