@@ -24,15 +24,18 @@ export default function Header () {
         </ul>
         {/* search input */}
       
-            <div className="flex justify-start items-center w-[330px] h-[40px] rounded-[62px] bg-[#F0F0F0]">
+           <div>
+           <div className="flex justify-start items-center w-[330px] h-[40px] rounded-[62px] bg-[#F0F0F0]">
             <FaSearchengin className="text-xl ml-2"/>
             <input placeholder="search item..." className="w-full ml-2 outline-none h-full  rounded-[62px] bg-[#F0F0F0]"></input>
 
 
             </div>
+           </div>
         
         {/* cart */}
         <div className="flex items-center mr-7 space-x-5">
+        <FaSearchengin className="text-xl ml-2 md:hidden"/>
         <FaCartArrowDown  className="text-2xl"/>
         </div>
 
