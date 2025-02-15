@@ -37,7 +37,7 @@ export function SheetSide() {
             </SheetHeader>
             
              {/* navbar */}
-        <ul>
+        <ul className="grid grid-cols-1 gap-y-4">
             <li className="space-x-5">
                 <Link href={""}>Shop</Link>
                 <Link href={""}>On Sale</Link>
