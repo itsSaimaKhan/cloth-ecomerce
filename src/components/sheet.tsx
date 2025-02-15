@@ -26,7 +26,7 @@ export function SheetSide() {
       {SHEET_SIDES.map((side) => (
         <Sheet key={side}>
           <SheetTrigger asChild>
-            <Button variant="outline">
+            <Button className="bg-white text-black">
            < TiThMenu/>
             </Button>
           </SheetTrigger>
