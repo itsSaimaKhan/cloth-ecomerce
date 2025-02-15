@@ -11,7 +11,7 @@ import { SheetSide } from "./sheet";
 
 export default function Header () {
   return (
-    <header className=" w-full h-[60px] flex justify-between items-center ">
+    <header className=" w-full h-[60px] bg-white flex justify-between items-center ">
         {/* left */}
         <div className="flex justify-center items-center">
         <SheetSide />
