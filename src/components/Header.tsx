@@ -16,7 +16,7 @@ export default function Header () {
         <div className="flex justify-start items-start">
         <SheetSide />
 
-        <h1 className="text-xl sm:text-3xl font-bold">SHOP.CO</h1>
+        <h1 className="text-xl sm:text-3xl font-bold pl-2">SHOP.CO</h1>
         </div>
         {/* navbar */}
         <ul>
