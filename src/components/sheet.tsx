@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import { TiThMenu } from "react-icons/ti";
 import { Label } from "@/components/ui/label"
 import {
   Sheet,
@@ -24,7 +25,7 @@ export function SheetSide() {
       {SHEET_SIDES.map((side) => (
         <Sheet key={side}>
           <SheetTrigger asChild>
-            <Button variant="outline">{side}</Button>
+            <Button ></Button>
           </SheetTrigger>
           <SheetContent side={side}>
             <SheetHeader>

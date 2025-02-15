@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaSearchengin } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
-import { TiThMenu } from "react-icons/ti";
+
 import { SheetSide } from "./sheet";
 
 
