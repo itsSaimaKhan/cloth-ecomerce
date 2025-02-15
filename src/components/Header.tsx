@@ -24,7 +24,7 @@ export default function Header () {
         </ul>
         {/* search input */}
       
-           <div>
+           <div className="hidden md:block">
            <div className="flex justify-start items-center w-[330px] h-[40px] rounded-[62px] bg-[#F0F0F0]">
             <FaSearchengin className="text-xl ml-2"/>
             <input placeholder="search item..." className="w-full ml-2 outline-none h-full  rounded-[62px] bg-[#F0F0F0]"></input>
