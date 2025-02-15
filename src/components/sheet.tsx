@@ -21,7 +21,7 @@ type SheetSide = (typeof SHEET_SIDES)[number]
 
 export function SheetSide() {
   return (
-    <div className="grid grid-cols-2 gap-2">
+    <div className="grid  gap-2">
       {SHEET_SIDES.map((side) => (
         <Sheet key={side}>
           <SheetTrigger asChild>
