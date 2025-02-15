@@ -25,7 +25,7 @@ export function SheetSide() {
     <div className="grid  gap-2">
       {SHEET_SIDES.map((side) => (
         <Sheet key={side}>
-          <SheetTrigger asChild>
+          <SheetTrigger asChild className="md:hidden">
             <Button >
            < TiThMenu/>
             </Button>

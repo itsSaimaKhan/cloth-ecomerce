@@ -14,7 +14,7 @@ export default function Header () {
     <header className=" w-full h-[60px] bg-white flex justify-between items-center ">
         {/* left */}
         <div className="flex justify-center items-center">
-        <SheetSide />
+        <SheetSide  />
 
         <h1 className="text-xl sm:text-3xl font-bold pl-2">SHOP.CO</h1>
         </div>
