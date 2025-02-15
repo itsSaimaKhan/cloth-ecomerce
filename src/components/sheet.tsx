@@ -31,6 +31,11 @@ export function SheetSide() {
             </Button>
           </SheetTrigger>
           <SheetContent side={side}>
+            <SheetHeader>
+              <SheetTitle>Shop.co</SheetTitle>
+             
+            </SheetHeader>
+            
              {/* navbar */}
         <ul>
             <li className="space-x-5">
@@ -40,10 +45,6 @@ export function SheetSide() {
                 <Link href={""}>Brands</Link>
             </li>
         </ul>
-             
-           
-            
-           
           </SheetContent>
         </Sheet>
       ))}
