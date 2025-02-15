@@ -13,7 +13,7 @@ export default function Header () {
   return (
     <header className=" w-full h-[60px] flex justify-between items-center ">
         {/* left */}
-        <div className="flex justify-start items-start">
+        <div className="flex justify-center items-center">
         <SheetSide />
 
         <h1 className="text-xl sm:text-3xl font-bold pl-2">SHOP.CO</h1>
