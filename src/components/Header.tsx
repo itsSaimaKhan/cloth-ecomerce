@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { FaSearchengin } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
+import { TiThMenu } from "react-icons/ti";
+import { SheetSide } from "./sheet";
+
 
 
 
@@ -11,6 +14,8 @@ export default function Header () {
     <header className=" w-full h-[60px] flex justify-between items-center ">
         {/* left */}
         <div>
+        <SheetSide />
+
         <h1 className="text-xl sm:text-3xl font-bold">SHOP.CO</h1>
         </div>
         {/* navbar */}
